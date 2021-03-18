@@ -37,6 +37,11 @@ class Student
   def add_student_attributes(attributes_hash)
     attributes_hash.each do |key, value|
       self.twitter = value if :twitter
+      self.linkedin = value if :linkedin
+      self.github = value if :github
+      self.blog = value if :blog
+      self.profile_quote = value if :profile_quote
+      self.bio = value if :bio
       binding.pry
     end
   end
