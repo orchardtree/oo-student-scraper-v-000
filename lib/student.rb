@@ -42,7 +42,7 @@ class Student
       self.blog = value if :blog
       self.profile_quote = value if :profile_quote
       self.bio = value if :bio
-      binding.pry
+      #binding.pry
     end
   end
 
